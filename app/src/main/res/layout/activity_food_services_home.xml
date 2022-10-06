@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FoodServicesHome">
+
+
+    <ImageView
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:contentDescription="@string/new_patient_registration"
+        android:src="@drawable/new_registration"
+        app:layout_constraintBottom_toTopOf="@+id/new_patient_registration_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.803" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/new_patient_registration_button"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:text="@string/new_patient_registration"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.426"
+        android:background="@drawable/oval_button"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/new_patient_registration_button_bg"/>
+
+    <ImageView
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:contentDescription="@string/new_patient_registration"
+        android:src="@drawable/to_do"
+        app:layout_constraintBottom_toTopOf="@+id/show_patient_list_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.979" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/show_patient_list_button"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/oval_button"
+        android:backgroundTint="@color/new_patient_registration_button_bg"
+        android:text="@string/show_patient_list"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.925" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
