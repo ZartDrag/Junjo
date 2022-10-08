@@ -14,4 +14,10 @@
     <string name="waiting_since">Waiting Since</string>
     <string name="prior">Prior</string>
     <string name="check_mark">Check Mark</string>
+    <string name="use_current_date">Use Current Date</string>
+    <string name="patient_description">Patient Description</string>
+    <string name="specialist">Specialist</string>
+    <string name="line">_________________________________________________________</string>
+    <string name="check_profile">Check Profile</string>
+    <string name="one">1</string>
 </resources>
